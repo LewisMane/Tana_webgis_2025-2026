@@ -15,7 +15,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Load your exported HTML map
-with open("map_1.html", "r", encoding="utf-8") as f:
+with open("map_3.html", "r", encoding="utf-8") as f:
     map_html = f.read()
 
 # Render it to fill the browser window
